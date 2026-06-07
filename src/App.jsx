@@ -296,7 +296,7 @@ function App() {
         <div className="container topbar__inner">
           <button className="brand" onClick={() => scrollTo('inicio')} aria-label="Voltar ao topo">
             <img
-              src="/sana_saily_logo_1500x1500_transparent.png"
+              src="/img/logo%20menor.jpg"
               alt="Logo Sana Saily"
               onError={(event) => {
                 event.currentTarget.style.display = 'none';
@@ -378,7 +378,7 @@ function App() {
             <div className="hero__visual">
               <div className="hero-card">
                 <img
-                  src="/sana_saily_logo_instagram_post.png"
+                  src="/img/logo.jpg"
                   alt="Imagem oficial de Sana Saily"
                   onError={(event) => {
                     event.currentTarget.style.display = 'none';
@@ -407,7 +407,7 @@ function App() {
               <div className="inst-bio__photo">
                 <div className="inst-photo-card">
                   <img
-                    src="/sana_saily_logo_instagram_post.png"
+                    src="/img/logo.jpg"
                     alt="Sana Saily"
                     onError={(e) => { e.currentTarget.style.display = 'none'; }}
                   />
@@ -678,7 +678,7 @@ function App() {
             <div className="gallery-grid">
               <div className="gallery-card gallery-card--image">
                 <img
-                  src="/sana_saily_logo_instagram_post.png"
+                  src="/img/logo.jpg"
                   alt="Imagem de destaque"
                   onError={(event) => {
                     event.currentTarget.style.display = 'none';
@@ -686,10 +686,19 @@ function App() {
                 />
                 <span>Imagem oficial para divulgação</span>
               </div>
-              <div className="gallery-card">Show ao vivo · Carnaval · palco iluminado</div>
+              <div className="gallery-card gallery-card--image">
+                <video
+                  controls
+                  preload="metadata"
+                  src="/video/Propaganda%20Bumbum%20de%20a%C3%A7ucar%20CLIP.mp4"
+                >
+                  Seu navegador não suporta vídeo.
+                </video>
+                <span>Clipe oficial · Propaganda Bumbum de açucar</span>
+              </div>
               <div className="gallery-card gallery-card--image">
                 <img
-                  src="/sana_saily_logo_1500x1500_transparent.png"
+                  src="/img/logo%20menor.jpg"
                   alt="Logo oficial"
                   onError={(event) => {
                     event.currentTarget.style.display = 'none';
@@ -697,7 +706,13 @@ function App() {
                 />
                 <span>Identidade visual da artista</span>
               </div>
-              <div className="gallery-card">Sessão de composição · caneta criativa · material de imprensa</div>
+              <div className="gallery-card gallery-card--audio">
+                <strong>Faixa oficial</strong>
+                <span>SANA SAILY - BUMBUM DE ACUCAR</span>
+                <audio controls preload="metadata" src="/music/SANA%20SAILY%20-%20BUMBUM%20DE%20ACUCAR%20BXK3U2300037.mp3">
+                  Seu navegador não suporta áudio.
+                </audio>
+              </div>
             </div>
 
             <div className="co-written">
