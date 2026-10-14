@@ -1,0 +1,99 @@
+[
+  {
+    "title": "BABOU BABOU",
+    "tag": "Faixa Autoral",
+    "mood": "Romântico e dançante",
+    "bpm": 120,
+    "duration": "3:00",
+    "lyrics": "",
+    "chords": "",
+    "concept": "",
+    "composer": "",
+    "mainFile": "",
+    "audioVersions": [],
+    "covers": [],
+    "encartes": [],
+    "photos": [],
+    "sheetMusic": [],
+    "styles": [
+      {
+        "name": "LAMBADA",
+        "file": "/music/BABOU BABOU/ESTILOS/LAMBADA/Babou_Babou_Lambada.mp3",
+        "sheetMusic": []
+      },
+      {
+        "name": "ROCK",
+        "file": "/music/BABOU BABOU/ESTILOS/ROCK/Babou_Babou_Rock.mp3",
+        "sheetMusic": []
+      }
+    ]
+  },
+  {
+    "title": "BUMBUM DE ACUCAR",
+    "tag": "Faixa Autoral",
+    "mood": "Romântico e dançante",
+    "bpm": 120,
+    "duration": "3:00",
+    "lyrics": "",
+    "chords": "",
+    "concept": "",
+    "composer": "",
+    "mainFile": "/music/BUMBUM DE ACUCAR/MUSICA/SANA SAILY - BUMBUM DE ACUCAR BXK3U2300037.mp3",
+    "audioVersions": [
+      {
+        "name": "SANA SAILY - BUMBUM DE ACUCAR BXK3U2300037.mp3",
+        "file": "/music/BUMBUM DE ACUCAR/MUSICA/SANA SAILY - BUMBUM DE ACUCAR BXK3U2300037.mp3"
+      }
+    ],
+    "covers": [],
+    "encartes": [],
+    "photos": [],
+    "sheetMusic": [],
+    "styles": []
+  },
+  {
+    "title": "O AMOR QUE EU QUERO",
+    "tag": "Faixa Autoral",
+    "mood": "Romântico e dançante",
+    "bpm": 120,
+    "duration": "3:00",
+    "lyrics": "",
+    "chords": "",
+    "concept": "",
+    "composer": "",
+    "mainFile": "/music/O AMOR QUE EU QUERO/MUSICA/SANA SAILY - O AMOR QUE EU QUERO BRHMS2400004.mp3.mpeg",
+    "audioVersions": [
+      {
+        "name": "SANA SAILY - O AMOR QUE EU QUERO BRHMS2400004.mp3.mpeg",
+        "file": "/music/O AMOR QUE EU QUERO/MUSICA/SANA SAILY - O AMOR QUE EU QUERO BRHMS2400004.mp3.mpeg"
+      }
+    ],
+    "covers": [],
+    "encartes": [],
+    "photos": [],
+    "sheetMusic": [],
+    "styles": []
+  },
+  {
+    "title": "OPCAO DOIS",
+    "tag": "Faixa Autoral",
+    "mood": "Romântico e dançante",
+    "bpm": 120,
+    "duration": "3:00",
+    "lyrics": "Opção Dois\nComposição de Hosana Maria Elias dos Santos\n\nEu estou cobrando da vida!\nO que ah demais prá mim!?\nEstou cobrando do sonho!\nO tempo quê não passou!!\nÉ a vida me cobrando !!\nPudores!\nÉ você somando!!\nOs meus amores!!\nQuê já não são!\nTantos assim!!\nMe paguei somando!!\nDe dois em dois!!\nEu separei dois prá mim!?\nAntes que você me, zombe!\nZombe zombe zombe zombe!!?\nOu queira me criticar!!\nUm é prá fazer amor!!\nO outro é para confidência!\nMais uma vez!!\nÉ para confidência!!\n",
+    "chords": "",
+    "concept": "",
+    "composer": "Hosana Maria Elias dos Santos",
+    "mainFile": "",
+    "audioVersions": [],
+    "covers": [
+      "/music/OPCAO DOIS/CAPA/capa_opcao_dois.png"
+    ],
+    "encartes": [],
+    "photos": [],
+    "sheetMusic": [
+      "/music/OPCAO DOIS/PARTITURA/pauta_clave_de_sol.png"
+    ],
+    "styles": []
+  }
+]
