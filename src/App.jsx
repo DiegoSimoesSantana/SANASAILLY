@@ -42,87 +42,213 @@ import {
 
 const tracks = [
   {
-    title: 'Lambafor do Coração',
-    tag: 'Hit de abertura do show',
-    mood: 'Romântico e dançante',
-    bpm: 130,
-    duration: '2:45',
-    notes: [
-      { note: 'E4', dur: 0.22 }, { note: 'A4', dur: 0.22 }, { note: 'C5', dur: 0.22 }, { note: 'B4', dur: 0.42 },
-      { note: 'A4', dur: 0.22 }, { note: 'B4', dur: 0.22 }, { note: 'C5', dur: 0.22 }, { note: 'A4', dur: 0.56 },
-      { note: 'D5', dur: 0.22 }, { note: 'F5', dur: 0.22 }, { note: 'E5', dur: 0.42 }, { note: 'D5', dur: 0.22 },
-      { note: 'C5', dur: 0.22 }, { note: 'B4', dur: 0.22 }, { note: 'A4', dur: 0.76 },
-    ],
-    lyrics: 'Vem no balanço que o corpo quer ver\nO Lambafor que eu fiz pra você\nBate o tambor, sanfona chorou\nA Bahia inteira já se apaixonou!',
+    title: 'Lambafor Dance Show',
+    tag: 'Abertura do Espetáculo',
+    mood: 'Fusão Lambafor • Alta Energia',
+    bpm: 132,
+    duration: '3:15',
+    composer: 'Hosana Maria Elias dos Santos (Sana Saily)',
+    concept: 'Faixa de abertura oficial do show, concebida para impactar o público com o pulsar da percussão baiana e o balanço do Lambafor.',
+    lyrics: 'Vem dançar o Lambafor que a Bahia chamou\nNo compasso da alegria o Pelô balançou\nLambafor Dance Show, a festa começou\nSana Saily no palco, energia e amor!',
+    chords: 'Intro: Am | Dm | G | C\nVerso: Am | Dm | F | E7\nRefrão: F | G | Em | Am (x2)',
+  },
+  {
+    title: 'Convite à Bahia',
+    tag: 'Hino Cultural Autoral',
+    mood: 'Solar e Festiva',
+    bpm: 120,
+    duration: '3:05',
+    composer: 'Hosana Maria Elias dos Santos (Sana Saily)',
+    concept: 'Celebração poética das cores, da fé e da musicalidade de Salvador, convidando o público a viver a magia da Bahia.',
+    lyrics: 'Vem pra Bahia ver o sol nascer\nSentir a força que faz renascer\nNo Pelourinho tem tambor a ecoar\nConvite à Bahia pra comemorar!',
+    chords: 'Intro: C | G | Am | F\nVerso: C | Em | F | G\nRefrão: C | G | F | G (x2)',
+  },
+  {
+    title: 'Brasão Pele Negra',
+    tag: 'Afro-Baiano de Raiz',
+    mood: 'Percussiva e Forte',
+    bpm: 110,
+    duration: '3:20',
+    composer: 'Hosana Maria Elias dos Santos (Sana Saily)',
+    concept: 'Homenagem à ancestralidade negra, à beleza e à força da mulher e do povo afro-brasileiro.',
+    lyrics: 'Meu brasão é pele negra, minha voz é oração\nTrago o canto dos tambores dentro do meu coração\nResistência e poesia no Pelô a reluzir\nCom orgulho e dignidade nossa história a construir!',
+    chords: 'Intro: Dm | Gm | A7 | Dm\nVerso: Dm | F | C | Dm\nRefrão: Bb | C | Dm | Dm (x2)',
+  },
+  {
+    title: 'Essa Menina Tem Cadeira de Ouro',
+    tag: 'Galope & Forró Baiano',
+    mood: 'Rítmica e Envolvente',
+    bpm: 128,
+    duration: '3:00',
+    composer: 'Hosana Maria Elias dos Santos (Sana Saily)',
+    concept: 'Narrativa bem-humorada e dançante com o toque sanfonado e o suingue de Salvador.',
+    lyrics: 'Essa menina tem cadeira de ouro\nO seu gingado vale um tesouro\nQuando ela dança no meio do salão\nBate mais forte todo coração!',
+    chords: 'Intro: G | D | Em | C\nVerso: G | Bm | C | D\nRefrão: G | D | C | D (x2)',
+  },
+  {
+    title: 'Opção Dois',
+    tag: 'Faixa Autoral • Clássico Gravado',
+    mood: 'Romântico e Dançante',
+    bpm: 120,
+    duration: '3:00',
+    composer: 'Hosana Maria Elias dos Santos (Sana Saily)',
+    mainFile: '',
+    covers: ['/music/OPCAO DOIS/CAPA/capa_opcao_dois.png'],
+    concept: 'Um dos grandes destaques do acervo autoral, explorando a confidência e a paixão em melodia envolvente.',
+    lyrics: 'Opção Dois\nComposição de Hosana Maria Elias dos Santos\n\nEu estou cobrando da vida!\nO que há demais prá mim!?\nEstou cobrando do sonho!\nO tempo quê não passou!!\nÉ a vida me cobrando !!\nPudores!\nÉ você somando!!\nOs meus amores!!\nQuê já não são!\nTantos assim!!\nMe peguei somando!!\nDe dois em dois!!\nEu separei dois prá mim!?\nAntes que você me, zombe!\nZombe zombe zombe zombe!!?\nOu queira me criticar!!\nUm é prá fazer amor!!\nO outro é para confidência!\nMais uma vez!!\nÉ para confidência!!',
     chords: 'Intro: Am | Dm | G | C\nVerso: Am | Dm | F | E7\nRefrão: F | G | C | Am (x2)',
-    concept: 'Uma fusão eletrizante entre lambada, forró e axé, pensada para abrir shows com energia alta e coro em uníssono.',
   },
   {
-    title: 'Brilho de Salvador',
-    tag: 'Canção de repertório autoral',
-    mood: 'Poética e luminosa',
-    bpm: 112,
+    title: 'Um Beijo de Boquinha',
+    tag: 'Swag & Dança',
+    mood: 'Descontraída e Carnavalesca',
+    bpm: 126,
+    duration: '2:55',
+    composer: 'Hosana Maria Elias dos Santos (Sana Saily)',
+    concept: 'Música festiva e contagiante com coreografia e refrão fácil para o público cantar junto.',
+    lyrics: 'Um beijo de boquinha pra começar\nNo balanço do Lambafor até o dia clarear\nChega juntinho, cola devagar\nQue essa dança boa vai te conquistar!',
+    chords: 'Intro: D | A | Bm | G\nVerso: D | F#m | G | A\nRefrão: D | A | G | A (x2)',
+  },
+  {
+    title: 'Deus Tô Ferrado',
+    tag: 'Axé Swingado',
+    mood: 'Alegre e Irreverente',
+    bpm: 130,
     duration: '3:10',
-    notes: [
-      { note: 'G4', dur: 0.3 }, { note: 'C5', dur: 0.3 }, { note: 'E5', dur: 0.3 }, { note: 'D5', dur: 0.6 },
-      { note: 'C5', dur: 0.3 }, { note: 'D5', dur: 0.3 }, { note: 'E5', dur: 0.3 }, { note: 'C5', dur: 0.8 },
-      { note: 'F5', dur: 0.3 }, { note: 'E5', dur: 0.3 }, { note: 'D5', dur: 0.6 }, { note: 'C5', dur: 0.3 },
-      { note: 'B4', dur: 0.3 }, { note: 'A4', dur: 0.3 }, { note: 'G4', dur: 0.8 },
-    ],
-    lyrics: 'O sol de Salvador brilha mais forte no Bonfim\nE a brisa do Farol traz você perto de mim\nNo Pelô tem tambor, tem axé, tem amor\nSana canta a poesia que a Bahia consagrou!',
-    chords: 'Intro: C | G | Am | F\nVerso: C | Em | F | G\nRefrão: C | G | Am | F (x2)',
-    concept: 'Homenagem à capital baiana, com versos que misturam paisagem, afeto e tradição musical.',
+    composer: 'Hosana Maria Elias dos Santos (Sana Saily)',
+    concept: 'Composição bem-humorada sobre os dilemas do coração nas noites quentes de Salvador.',
+    lyrics: 'Deus tô ferrado, me apaixonei de vez\nOlha o estrago que aquele beijo fez\nMas no Carnaval a gente vai curar\nBota o Lambafor que eu quero festejar!',
+    chords: 'Intro: C | Am | F | G\nVerso: C | Em | F | G\nRefrão: C | G | Am | F (x2)',
   },
   {
-    title: 'Pena Colorida',
-    tag: 'Símbolo da composição',
-    mood: 'Intimista e inspiradora',
-    bpm: 95,
-    duration: '3:30',
-    notes: [
-      { note: 'A4', dur: 0.4 }, { note: 'D5', dur: 0.4 }, { note: 'F5', dur: 0.4 }, { note: 'E5', dur: 0.6 },
-      { note: 'D5', dur: 0.4 }, { note: 'C#5', dur: 0.4 }, { note: 'D5', dur: 0.4 }, { note: 'E5', dur: 0.8 },
-      { note: 'F5', dur: 0.4 }, { note: 'E5', dur: 0.4 }, { note: 'D5', dur: 0.4 }, { note: 'C5', dur: 0.4 },
-      { note: 'B4', dur: 0.4 }, { note: 'A4', dur: 0.4 }, { note: 'G#4', dur: 0.4 }, { note: 'A4', dur: 1.0 },
+    title: 'Poder da Medicina',
+    tag: 'Ritmo Envolvente',
+    mood: 'Sensual e Cadenciada',
+    bpm: 118,
+    duration: '3:05',
+    composer: 'Hosana Maria Elias dos Santos (Sana Saily)',
+    concept: 'Metáfora entre o poder da cura e o alívio que a música e o abraço proporcionam à alma.',
+    lyrics: 'O poder da medicina tá no teu olhar\nRemédio pro peito é te ver dançar\nNa batida do som a dor vai sumir\nTem cura melhor que a gente sorrir?',
+    chords: 'Intro: Em | C | G | D\nVerso: Em | G | C | B7\nRefrão: Em | C | D | B7 (x2)',
+  },
+  {
+    title: 'O Amor Que Eu Quero',
+    tag: 'Autoral • ISRC BRHMS2400004',
+    mood: 'Melódico e Apaixonante',
+    bpm: 120,
+    duration: '3:00',
+    composer: 'Hosana Maria Elias dos Santos (Sana Saily)',
+    mainFile: '/music/O AMOR QUE EU QUERO/MUSICA/SANA SAILY - O AMOR QUE EU QUERO BRHMS2400004.mp3.mpeg',
+    concept: 'Composição oficial catalogada com registro ISRC BRHMS2400004, misturando lirismo e suingue.',
+    lyrics: 'O amor que eu quero não tem falsidade\nÉ feito de sol, axé e verdade\nVem cá meu bem, me dá sua mão\nQue o nosso destino é pura paixão!',
+    chords: 'Intro: A | F#m | D | E\nVerso: A | C#m | D | E\nRefrão: A | E | D | E (x2)',
+  },
+  {
+    title: 'Babou Babou',
+    tag: 'Lambada Elétrica',
+    mood: 'Elétrico e Festivo',
+    bpm: 125,
+    duration: '3:00',
+    composer: 'Hosana Maria Elias dos Santos (Sana Saily)',
+    mainFile: '',
+    styles: [
+      { name: 'LAMBADA', file: '/music/BABOU BABOU/ESTILOS/LAMBADA/Babou_Babou_Lambada.mp3' },
+      { name: 'ROCK', file: '/music/BABOU BABOU/ESTILOS/ROCK/Babou_Babou_Rock.mp3' }
     ],
-    lyrics: 'Com minha pena colorida eu escrevo meu destino\nTraço os acordes num compasso nordestino\nNotas de arco-íris flutuando pelo ar\nCada verso é uma prece para o povo festejar.',
-    chords: 'Intro: Dm | Am | E7 | Am\nVerso: Dm | G | C | F | Dm | E7 | Am\nRefrão: Am | Dm | G | C | F | E7 | Am (x2)',
-    concept: 'Faixa-manifesto sobre autoria, identidade e o poder de transformar experiência em canção.',
+    concept: 'Faixa acelerada e vibrante com arranjos de guitarra e metais em ritmo contagiante.',
+    lyrics: 'Babou, babou, o clima esquentou\nNa praça do Pelô ninguém mais parou\nÉ lambada gostosa, é som de primeira\nSana Saily comanda a brincadeira!',
+    chords: 'Intro: Dm | A7 | Dm | A7\nVerso: Dm | Gm | C | F\nRefrão: Gm | C | F | A7 (x2)',
+  },
+  {
+    title: 'Bumbum de Açúcar',
+    tag: 'Clipe Oficial • ISRC BXK3U2300037',
+    mood: 'Hit Dançante e Coreográfico',
+    bpm: 124,
+    duration: '3:00',
+    composer: 'Hosana Maria Elias dos Santos (Sana Saily)',
+    mainFile: '/music/BUMBUM DE ACUCAR/MUSICA/SANA SAILY - BUMBUM DE ACUCAR BXK3U2300037.mp3',
+    concept: 'Hit oficial com videoclipe gravado, grande alcance e identidade marcante do Lambafor.',
+    lyrics: 'Bumbum de açúcar no compasso do Pelô\nBate gostoso que o povo gostou\nNa cadência bonita não fico pra trás\nEsse é o balanço que a Bahia faz!',
+    chords: 'Intro: C | G | Am | F\nVerso: C | Em | F | G\nRefrão: C | G | F | G (x2)',
+  },
+  {
+    title: 'A Nossa Bahia É Trigueira',
+    tag: 'Celebração de Raiz',
+    mood: 'Vigoroso e Popular',
+    bpm: 122,
+    duration: '3:15',
+    composer: 'Hosana Maria Elias dos Santos (Sana Saily)',
+    concept: 'Canto de exaltação à mestiçagem, à beleza trigueira e à identidade do povo baiano.',
+    lyrics: 'A nossa Bahia é trigueira e guerreira\nTem a benção do Bonfim e a força da capoeira\nNa beira da praia ou no alto da colina\nA canção de Sana Saily ilumina!',
+    chords: 'Intro: G | Em | C | D\nVerso: G | Bm | C | D\nRefrão: G | Bm | C | D (x2)',
+  },
+  {
+    title: 'Olle Doido',
+    tag: 'Agitação de Pipoca',
+    mood: 'Explosão de Trio',
+    bpm: 136,
+    duration: '2:50',
+    composer: 'Hosana Maria Elias dos Santos (Sana Saily)',
+    concept: 'Energia de pipoca carnavalesca, criada para arrastar a multidão na corda e nos palcos.',
+    lyrics: 'Olle doido, olle lá, vem cá ver\nO Lambafor botando pra ferver\nSai do chão, levanta a mão pro ar\nQue o Pelourinho vai estourar!',
+    chords: 'Intro: Am | F | G | Am\nVerso: Dm | Am | E7 | Am\nRefrão: F | G | Am | Am (x2)',
+  },
+  {
+    title: 'Desempregado na Pingueira',
+    tag: 'Crônica Popular Baiana',
+    mood: 'Irreverente e Swingada',
+    bpm: 116,
+    duration: '3:10',
+    composer: 'Hosana Maria Elias dos Santos (Sana Saily)',
+    concept: 'Retrato do cotidiano com humor, malemolência e poesia sincera da vida popular.',
+    lyrics: 'Desempregado na pingueira esperando a maré virar\nCom um violão no colo e muita fé pra caminhar\nA vida é dura mas tem samba pra cantar\nNa fé da Bahia nada vai me derrubar!',
+    chords: 'Intro: Dm | Gm | C | F\nVerso: Bb | Gm | A7 | Dm\nRefrão: Bb | A7 | Dm | Dm (x2)',
+  },
+  {
+    title: 'Mel com Chantilly',
+    tag: 'Romântica Sensual',
+    mood: 'Suave e Dançante',
+    bpm: 110,
+    duration: '3:05',
+    composer: 'Hosana Maria Elias dos Santos (Sana Saily)',
+    concept: 'Balada romântica temperada com o dengo e a doçura baiana.',
+    lyrics: 'Você é mel com chantilly no meu paladar\nO sabor mais doce que eu pude provar\nNesse Lambafor gostoso e sedutor\nEu me entrego inteiro pro teu amor!',
+    chords: 'Intro: C | Em | F | G\nVerso: Am | Em | F | G\nRefrão: C | Am | F | G (x2)',
+  },
+  {
+    title: 'Hoje Eu Ralei',
+    tag: 'Voz da Batalha',
+    mood: 'Dança e Superação',
+    bpm: 125,
+    duration: '3:00',
+    composer: 'Hosana Maria Elias dos Santos (Sana Saily)',
+    concept: 'Homenagem ao trabalhador e à trabalhadora que lutam no dia a dia e encontram na festa o momento de alegria.',
+    lyrics: 'Hoje eu ralei, suei a camisa pra valer\nMas quando chega a noite eu mereço viver\nBota o som na caixa, desliga o cansaço\nQue hoje eu só quero festa e abraço!',
+    chords: 'Intro: G | D | Em | C\nVerso: G | Bm | C | D\nRefrão: G | Bm | C | D (x2)',
+  },
+  {
+    title: 'Mesa Sete',
+    tag: 'Boemia e Romance',
+    mood: 'Noite de Salvador',
+    bpm: 114,
+    duration: '3:12',
+    composer: 'Hosana Maria Elias dos Santos (Sana Saily)',
+    concept: 'História romântica ambientada nos bares tradicionais e esquinas charmosas do Pelô.',
+    lyrics: 'Na mesa sete um bilhete deixei\nFalando de amor como nunca falei\nSe você voltar e me procurar\nÉ no compasso de Sana que vai me achar!',
+    chords: 'Intro: Am | Dm | E7 | Am\nVerso: Dm | G | C | F\nRefrão: Dm | G | C | E7 (x2)',
   },
 ];
 
 const events = [
   {
-    title: 'Lançamento oficial do Estilo Lambafor',
+    title: 'SHOW SANA SAILY (PART. JOÃO CASTA) – CARNAVAL DO PELÔ',
     city: 'Salvador, BA',
-    venue: 'Concha Acústica do TCA',
-    date: '12 Jun 2026',
-    time: '19:00',
-    status: 'Ingressos voando',
-  },
-  {
-    title: 'Festival das Cores da Bahia',
-    city: 'Porto Seguro, BA',
-    venue: 'Arena Axé Moi',
-    date: '04 Jul 2026',
-    time: '21:00',
-    status: 'Últimos lugares',
-  },
-  {
-    title: 'Noite da Caneta de Ouro',
-    city: 'Salvador, BA',
-    venue: 'Teatro Vila Velha',
-    date: '18 Jul 2026',
-    time: '20:00',
-    status: 'Show intimista',
-  },
-  {
-    title: 'Micareta Lambafor Fest',
-    city: 'Salvador, BA',
-    venue: 'Barra-Ondina',
-    date: '08 Ago 2026',
-    time: '16:00',
-    status: 'Em breve',
+    venue: 'Palcos do Pelourinho (Modalidade D – Secult / Carnaval da Bahia)',
+    date: 'Carnaval de Salvador',
+    time: 'Duração estimada: 90 minutos',
+    status: 'Inscrição Oficial / Habilitação',
+    artist: 'Sana Saily (Hosana Maria Elias dos Santos) & João Casta (Participação Especial)',
+    highlight: true,
   },
 ];
 
@@ -207,9 +333,24 @@ function App() {
   const countdown = useCountdown(new Date('2026-06-12T19:00:00-03:00'));
 
   const [isAdminRoute, setIsAdminRoute] = useState(() => {
-    const path = window.location.pathname;
-    const hash = window.location.hash;
+    const path = window.location.pathname.toLowerCase();
+    const hash = window.location.hash.toLowerCase();
     return path === '/admin' || hash === '#admin' || hash === '#/admin';
+  });
+
+  const [isClipeRoute, setIsClipeRoute] = useState(() => {
+    const path = window.location.pathname.toLowerCase();
+    const hash = window.location.hash.toLowerCase();
+    return (
+      path === '/clipe-oficial' ||
+      path === '/video-oficial' ||
+      path === '/clipe-bumbum-de-acucar' ||
+      hash === '#clipe-oficial' ||
+      hash === '#/clipe-oficial' ||
+      hash === '#video-oficial' ||
+      hash === '#/video-oficial' ||
+      hash === '#/clipe-bumbum-de-acucar'
+    );
   });
 
   const [tracksList, setTracksList] = useState(tracks);
@@ -218,9 +359,19 @@ function App() {
 
   useEffect(() => {
     const handleLocationChange = () => {
-      const path = window.location.pathname;
-      const hash = window.location.hash;
+      const path = window.location.pathname.toLowerCase();
+      const hash = window.location.hash.toLowerCase();
       setIsAdminRoute(path === '/admin' || hash === '#admin' || hash === '#/admin');
+      setIsClipeRoute(
+        path === '/clipe-oficial' ||
+        path === '/video-oficial' ||
+        path === '/clipe-bumbum-de-acucar' ||
+        hash === '#clipe-oficial' ||
+        hash === '#/clipe-oficial' ||
+        hash === '#video-oficial' ||
+        hash === '#/video-oficial' ||
+        hash === '#/clipe-bumbum-de-acucar'
+      );
     };
     window.addEventListener('popstate', handleLocationChange);
     window.addEventListener('hashchange', handleLocationChange);
@@ -238,13 +389,27 @@ function App() {
       })
       .then((data) => {
         if (Array.isArray(data) && data.length > 0) {
-          const merged = [...data];
-          tracks.forEach((demoTrack) => {
-            if (!merged.some((t) => t.title.toLowerCase() === demoTrack.title.toLowerCase())) {
-              merged.push(demoTrack);
+          const updated = tracks.map((baseTrack) => {
+            const diskTrack = data.find((d) => d.title.toLowerCase().trim() === baseTrack.title.toLowerCase().trim());
+            if (diskTrack) {
+              return {
+                ...baseTrack,
+                ...diskTrack,
+                composer: baseTrack.composer || diskTrack.composer,
+                tag: baseTrack.tag || diskTrack.tag,
+                lyrics: diskTrack.lyrics || baseTrack.lyrics,
+                chords: diskTrack.chords || baseTrack.chords,
+                concept: baseTrack.concept || diskTrack.concept,
+              };
+            }
+            return baseTrack;
+          });
+          data.forEach((d) => {
+            if (!updated.some((u) => u.title.toLowerCase().trim() === d.title.toLowerCase().trim())) {
+              updated.push(d);
             }
           });
-          setTracksList(merged);
+          setTracksList(updated);
         }
       })
       .catch((err) => {
@@ -440,6 +605,17 @@ function App() {
         onClose={() => {
           window.history.pushState(null, '', '/');
           setIsAdminRoute(false);
+        }}
+      />
+    );
+  }
+
+  if (isClipeRoute) {
+    return (
+      <ClipeOficialPage
+        onClose={() => {
+          window.history.pushState(null, '', '/');
+          setIsClipeRoute(false);
         }}
       />
     );
@@ -1411,28 +1587,83 @@ function App() {
           <div className="container">
             <div className="section-head section-head--row">
               <div>
-                <span className="eyebrow"><CalendarDays size={16} /> Agenda oficial</span>
-                <h2>Eventos, lançamentos e apresentações ao vivo.</h2>
-              </div>
-              <div className="countdown">
-                <span>Próximo show em</span>
-                <strong>{countdown.days}d {countdown.hours}h {countdown.minutes}m</strong>
+                <span className="eyebrow"><CalendarDays size={16} /> Próximas Agendas & Editais</span>
+                <h2>Inscrição Oficial • Carnaval de Salvador no Pelô 2027</h2>
+                <p>
+                  Proposta artística oficial para os palcos históricos do Pelourinho, unindo a força do Lambafor
+                  de Sana Saily à energia afro-carnavalesca do cantor convidado João Casta.
+                </p>
               </div>
             </div>
 
-            <div className="events-grid">
+            <div className="events-grid events-grid--single">
               {events.map((event) => (
-                <article key={event.title} className="event-card">
+                <article key={event.title} className="event-card event-card--carnaval-official">
                   <div className="event-card__header">
-                    <span>{event.date}</span>
-                    <em>{event.status}</em>
+                    <span className="event-date-badge">{event.date}</span>
+                    <em className="event-status-badge">{event.status}</em>
                   </div>
                   <h3>{event.title}</h3>
-                  <p>{event.venue}</p>
-                  <small>{event.city} · Início {event.time}</small>
-                  <button onClick={() => setTicketOpen(event)}>
-                    Garantir ingresso <ChevronRight size={16} />
-                  </button>
+                  <p className="event-venue-text">
+                    <MapPin size={15} className="inline-icon" /> <strong>{event.venue}</strong>
+                  </p>
+                  <div className="event-meta-strip">
+                    <span><strong>Cidade:</strong> {event.city}</span>
+                    <span><strong>Duração:</strong> {event.time}</span>
+                    <span><strong>Participação Especial:</strong> João Casta</span>
+                  </div>
+
+                  {/* Detalhamento do Repertório Oficial do Show */}
+                  <div className="carnaval-repertoire-box">
+                    <div className="repertoire-column">
+                      <span className="repertoire-header-badge">
+                        17 Músicas Autorais de Sana Saily (Hosana Maria Elias dos Santos):
+                      </span>
+                      <ol className="repertoire-compact-list">
+                        <li>01. Lambafor Dance Show</li>
+                        <li>02. Convite à Bahia</li>
+                        <li>03. Brasão Pele Negra</li>
+                        <li>04. Essa Menina Tem Cadeira de Ouro</li>
+                        <li>05. Opção Dois</li>
+                        <li>06. Um Beijo de Boquinha</li>
+                        <li>07. Deus Tô Ferrado</li>
+                        <li>08. Poder da Medicina</li>
+                        <li>09. O Amor Que Eu Quero</li>
+                        <li>10. Babou Babou</li>
+                        <li>11. Bumbum de Açúcar</li>
+                        <li>12. A Nossa Bahia É Trigueira</li>
+                        <li>13. Olle Doido</li>
+                        <li>14. Desempregado na Pingueira</li>
+                        <li>15. Mel com Chantilly</li>
+                        <li>16. Hoje Eu Ralei</li>
+                        <li>17. Mesa Sete</li>
+                      </ol>
+                    </div>
+
+                    <div className="repertoire-column repertoire-column--joao-casta">
+                      <span className="repertoire-header-badge repertoire-header-badge--guest">
+                        04 Faixas com Participação Especial de João Casta:
+                      </span>
+                      <p className="guest-note">
+                        Músicas de autoria e interpretação de João Casta, trazendo a energia dos clássicos carnavalescos e ritmo afro-baiano para o espetáculo:
+                      </p>
+                      <ol className="repertoire-compact-list repertoire-compact-list--guest">
+                        <li>18. Dança Aqui, Dança Lá – <em>Autoria: João Casta</em></li>
+                        <li>19. Solar Salvador – <em>Autoria: João Casta</em></li>
+                        <li>20. É Carnaval em Salvador (Ferve, Ferve) – <em>Autoria: João Casta</em></li>
+                        <li>21. Merengue e Folia em Salvador – <em>Autoria: João Casta</em></li>
+                      </ol>
+                    </div>
+                  </div>
+
+                  <div className="event-card-actions">
+                    <button className="primary-button" onClick={() => setBookingOpen(true)}>
+                      Solicitar Contratação / Informações do Show <ChevronRight size={16} />
+                    </button>
+                    <button className="secondary-button" onClick={() => window.print()}>
+                      <Printer size={16} /> Imprimir Dossiê do Show
+                    </button>
+                  </div>
                 </article>
               ))}
             </div>
@@ -2089,6 +2320,141 @@ function Modal({ title, onClose, children }) {
         <span className="eyebrow"><Ticket size={16} /> {title}</span>
         <div className="modal-body">{children}</div>
       </div>
+    </div>
+  );
+}
+
+function ClipeOficialPage({ onClose }) {
+  const [copied, setCopied] = useState(false);
+  const videoUrl = '/music/BUMBUM%20DE%20ACUCAR/CLIP/Video%20Oficial.mp4';
+  const audioUrl = '/music/BUMBUM%20DE%20ACUCAR/MUSICA/SANA%20SAILY%20-%20BUMBUM%20DE%20ACUCAR%20BXK3U2300037.mp3';
+
+  const handleCopyLink = () => {
+    const fullUrl = window.location.origin + '/clipe-oficial';
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(fullUrl);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 3000);
+    }
+  };
+
+  return (
+    <div className="clipe-standalone-shell">
+      <header className="clipe-standalone-topbar">
+        <div className="container clipe-standalone-topbar__inner">
+          <div className="brand">
+            <img
+              src="/img/logo%20menor.jpg"
+              alt="Logo Sana Saily"
+              onError={(e) => {
+                e.currentTarget.style.display = 'none';
+              }}
+            />
+            <span>
+              <strong>Sana Saily</strong>
+              <small>Vídeo Oficial Exclusivo</small>
+            </span>
+          </div>
+
+          <div className="clipe-topbar-actions">
+            <button className="copy-clipe-btn" onClick={handleCopyLink}>
+              {copied ? <Check size={16} className="text-green" /> : <Copy size={16} />}
+              <span>{copied ? 'Link Copiado!' : 'Copiar Link Único'}</span>
+            </button>
+            <a
+              href={videoUrl}
+              download="Sana Saily - Bumbum de Acucar - Clipe Oficial.mp4"
+              className="download-clipe-btn"
+            >
+              <Download size={16} />
+              <span>Baixar Vídeo MP4 (27.5 MB)</span>
+            </a>
+            <button className="back-portal-btn" onClick={onClose} title="Ir para a página inicial">
+              <ArrowLeft size={16} />
+              <span>Portal</span>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <main className="container clipe-standalone-main">
+        {/* Cinema Video Player */}
+        <div className="clipe-cinema-card">
+          <div className="clipe-cinema-badge">
+            <Video size={14} /> CLIPE OFICIAL EM ALTA DEFINIÇÃO
+          </div>
+          <div className="clipe-video-wrapper">
+            <video
+              controls
+              autoPlay
+              playsInline
+              preload="auto"
+              poster="/img/logo.jpg"
+              src={videoUrl}
+              className="clipe-cinema-video"
+            >
+              Seu navegador não suporta a tag de vídeo HTML5.
+            </video>
+          </div>
+        </div>
+
+        {/* Video Meta & Details */}
+        <div className="clipe-details-grid">
+          <div className="clipe-info-card">
+            <span className="clipe-tag">Faixa Autoral • Estilo Lambafor</span>
+            <h1>Bumbum de Açúcar – Clipe Oficial</h1>
+            <p className="clipe-composer">
+              <strong>Autoria & Interpretação:</strong> Hosana Maria Elias dos Santos (Sana Saily)
+            </p>
+            <p className="clipe-desc">
+              Clipe oficial de "Bumbum de Açúcar", destacando a presença de palco, a riqueza cênica,
+              coreografia contagiante e a fusão de lambada, forró e axé consagrada por Sana Saily em Salvador - Bahia.
+            </p>
+
+            <div className="clipe-audio-box">
+              <span className="clipe-audio-label"><Music4 size={14} /> Áudio Estéreo Masterizado:</span>
+              <audio controls preload="metadata" src={audioUrl} className="clipe-audio-player">
+                Seu navegador não suporta áudio.
+              </audio>
+            </div>
+
+            <div className="clipe-action-row">
+              <button className="primary-button" onClick={handleCopyLink}>
+                {copied ? <Check size={16} /> : <Copy size={16} />}
+                <span>{copied ? 'Link Copiado com Sucesso!' : 'Copiar Link Desta Página para Envio'}</span>
+              </button>
+              <a
+                href={videoUrl}
+                download="Sana Saily - Bumbum de Acucar - Clipe Oficial.mp4"
+                className="secondary-button"
+              >
+                <Download size={16} /> Baixar Arquivo Original
+              </a>
+            </div>
+          </div>
+
+          <div className="clipe-ficha-card">
+            <h3>Ficha Técnica & Comprovação</h3>
+            <ul>
+              <li><strong>Obra:</strong> Bumbum de Açúcar</li>
+              <li><strong>Composição:</strong> Hosana Maria Elias dos Santos (Sana Saily)</li>
+              <li><strong>Código ISRC:</strong> BXK3U2300037</li>
+              <li><strong>Formato de Mídia:</strong> Vídeo Oficial MP4 HD (27.5 MB)</li>
+              <li><strong>Gênero:</strong> Lambafor • Música Popular Baiana</li>
+              <li><strong>Status:</strong> Acesso Restrito / Não Indexado na Home</li>
+            </ul>
+
+            <div className="clipe-private-notice">
+              <ShieldCheck size={18} className="text-turquoise" />
+              <span>Link direto exclusivo. Sem links visíveis na navegação da Home.</span>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer className="clipe-standalone-footer">
+        <p>Sana Saily • Estilo Lambafor • Salvador - Bahia • Todos os direitos reservados</p>
+      </footer>
     </div>
   );
 }
