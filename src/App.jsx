@@ -317,7 +317,7 @@ function App() {
   const copyAudiovisualLinks = () => {
     const textToCopy = `MATERIAL AUDIOVISUAL OFICIAL - SANA SAILY (CARNAVAL DO PELÔ 2027)\n\n` +
       `1. Pasta Pública no Google Drive (Acesso Livre):\n${driveLink}\n\n` +
-      `2. Portal Oficial com Reprodutores na Íntegra:\nhttps://sanasailly.com.br/#audiovisual\n\n` +
+      `2. Portal Oficial com Reprodutores na Íntegra:\nhttps://www.sanasaily.com.br/#audiovisual\n\n` +
       `3. Canal Oficial no YouTube:\n${youtubeLink}`;
 
     if (navigator.clipboard) {
@@ -630,7 +630,7 @@ function App() {
           <h1>SANA SAILY (HOSANA MARIA ELIAS DOS SANTOS)</h1>
           <h2>CRIADORA DO ESTILO LAMBAFOR • MÚSICA POPULAR BAIANA</h2>
           <p>
-            Salvador - Bahia • Contato: contato@sanasailly.com.br • Telefone/WhatsApp: (71) 99999-9999 • Domínio Oficial: https://sanasailly.com.br
+            Salvador - Bahia • Contato: contato@sanasaily.com.br • Telefone/WhatsApp: (71) 99999-9999 • Domínio Oficial: https://www.sanasaily.com.br
           </p>
         </div>
         <div className="print-official-summary">
@@ -1204,7 +1204,7 @@ function App() {
               <div className="print-only-url-box">
                 <strong>LINKS PÚBLICOS PARA ACESSO DIRETO DA BANCA / CONTRATANTES:</strong>
                 <p>1. Google Drive (Arquivos Brutos HD): <span>{driveLink}</span></p>
-                <p>2. Portal Oficial e Vídeos na Web: <span>https://sanasailly.com.br/#audiovisual</span></p>
+                <p>2. Portal Oficial e Vídeos na Web: <span>https://www.sanasaily.com.br/#audiovisual</span></p>
                 <p>3. YouTube Oficial: <span>{youtubeLink}</span></p>
               </div>
             </div>
